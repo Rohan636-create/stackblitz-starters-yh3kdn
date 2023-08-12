@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  border: 1px solid black;
+  padding: 2rem;
+  /* background-color: red; */
+}
+.heroes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 20vh;
+  /* background-color: aqua; */
+  box-shadow: 2px 2px 3px rgb(7, 7, 7);
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 70vh;
+  /* background-color: blue; */
+  box-shadow: 2px 2px 3px rgb(7, 7, 7);
+}
