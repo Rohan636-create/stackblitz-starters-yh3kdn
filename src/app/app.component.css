@@ -1,29 +1,24 @@
-.container {
+.container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  width: 100vw;
-  border: 1px solid black;
-  padding: 2rem;
+  height: 95vh;
+  width: 99vw;
+  /* background-color: aquamarine; */
+  border: 1px solid red;
+}
+.heroes{
+  display: flex;
+  height: 30vh;
+  width: 100%;
   /* background-color: red; */
+  border: 1px solid aqua;
 }
-.heroes {
+.hero-detail{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  height: 20vh;
-  /* background-color: aqua; */
-  box-shadow: 2px 2px 3px rgb(7, 7, 7);
-}
-.details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60vw;
-  height: 70vh;
-  /* background-color: blue; */
-  box-shadow: 2px 2px 3px rgb(7, 7, 7);
+  height: 60vh;
+  width: 60%;
+  /* background-color: blueviolet; */
+  border: 1px solid blueviolet;
 }
