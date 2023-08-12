@@ -20,3 +20,6 @@
 .avatar > img {
   height: 10rem;
 }
+.field{
+  display: flex;
+}
