@@ -18,8 +18,11 @@
   /* background-color: aqua; */
 }
 .avatar > img {
-  height: 10rem;
+  height: 5rem;
 }
-.field{
+.name-id {
   display: flex;
+  justify-content: last baseline;
+  align-items: baseline;
+  height: 1rem;
 }
