@@ -15,14 +15,14 @@ export const HEROES: Hero[] = [
       'https://wallpapers.com/images/featured/luffy-pictures-22osajj9ivjfcm49.jpg',
     name: 'luffy',
     field: 'king of pirate',
-    info: 'dwan of new era',
+    info: 'Monkey D. Luffy (/ˈluːfi/ LOO-fee) (Japanese: モンキー・D・ルフィ, Hepburn: Monkī Dī Rufi, [ɾɯɸiː]), also known as "Straw Hat" Luffy[n 2], is a fictional character and the protagonist of the One Piece manga series, created by Eiichiro Oda. Luffy made his debut as a young boy who acquires the properties of rubber after accidentally eating one of the Devil Fruits that belonged to “Red Hair” Shanks.',
   },
   {
     id: 3,
     avatar: 'https://fictionhorizon.com/wp-content/uploads/2023/02/Zoro-1.jpg',
     name: 'zoro',
     field: 'Right hand of king of pairate',
-    info: 'great swordsman',
+    info: 'Roronoa Zoro (ロロノア・ゾロ, Roronoa Zoro, spelled as "Roronoa Zolo" in some English adaptations), also known as "Pirate Hunter" Zoro (海賊狩りのゾロ, Kaizoku-Gari no Zoro), is a fictional character created by Japanese manga artist Eiichiro Oda who appears in the manga series and media franchise One Piece. He first appeared in the third chapter of the One Piece manga, published in the manga magazine Weekly Shōnen Jump in 1997. Zoro is the first crewmate to join the Straw Hat Pirates, a crew of pirates captained by Monkey D. Luffy, after he is rescued by Luffy from execution. Zoro is a highly skilled swordsman and serves as one of the crew',
   },
   {
     id: 4,
@@ -30,6 +30,6 @@ export const HEROES: Hero[] = [
       'https://staticg.sportskeeda.com/editor/2022/05/b4232-16533356042962-1920.jpg',
     name: 'mikey',
     field: 'toman leader',
-    info: '',
+    info: 'Manjiro "Mikey" Sano is the deuteragonist-turned-final antagonist of the 2017 Japanese manga series Tokyo Revengers and its 2021 anime adaptation. He is a founding member and President of the Tokyo Manji Gang, the younger brother of Shinichiro Sano, the founder and the very first president of the Black Dragons, and the half-brother of Emma Sano',
   },
 ];
