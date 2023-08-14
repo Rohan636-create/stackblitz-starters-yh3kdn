@@ -22,7 +22,13 @@
 }
 .name-id {
   display: flex;
-  justify-content: last baseline;
+  justify-content: left;
+  align-items: baseline;
+  height: 1rem;
+}
+.field {
+  display: flex;
+  justify-content: left;
   align-items: baseline;
   height: 1rem;
 }
