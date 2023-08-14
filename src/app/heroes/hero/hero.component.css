@@ -57,3 +57,7 @@
   width: 100%;
   font-size: 98%;
 }
+.avatar:hover{
+  background-color: aqua;
+  
+}
