@@ -2,5 +2,7 @@
   <app-heroes class="heroes" (heroSelected)="onHeroSelected($event)"
     >hero</app-heroes
   >
-  <app-details class="details">details</app-details>
+  <app-details class="details" [selectedHero]="selectedHero"
+    >details</app-details
+  >
 </div>
