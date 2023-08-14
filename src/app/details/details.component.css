@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vw;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  width: 25vw;
+}
+.avatar > img {
+  /* padding-right: 4rem; */
+  height: 20vh;
+  width: 100%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
