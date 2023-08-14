@@ -24,3 +24,6 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+.name-id {
+  align-items: center;
+}
