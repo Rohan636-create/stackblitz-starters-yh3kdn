@@ -1,34 +1,59 @@
 .container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  padding: 0.5rem;
-  /* border: 1px solid blue; */
-  height: 20vh;
+  /* border: 1px solid rgb(0, 0, 0); */
+  height: 10rem;
   width: 15rem;
+  padding: 0.4rem;
+  /* background-color: maroon; */
+  filter: drop-shadow(10px 10px 20px black);
 }
+
 .avatar {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10rem;
+  height: 9rem;
   width: 100%;
-  border: 2px solid black;
-  /* background-color: aqua; */
+  padding: 3px;
 }
+
 .avatar > img {
   height: 5rem;
+  width: 11rem;
+  filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
 }
-.name-id {
+.id {
   display: flex;
-  justify-content: left;
-  align-items: baseline;
-  height: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  height: 2rem;
+  width: 100%;
+}
+.name {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 5vh;
+  width: 100%;
+  font-size: 90%;
+}
+.name::selection {
+  color: rgb(30, 241, 33);
+  background-color: black;
 }
 .field {
   display: flex;
-  justify-content: left;
-  align-items: baseline;
-  height: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 0.05rem;
+  width: 100%;
+  font-size: 98%;
 }
