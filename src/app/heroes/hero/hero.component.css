@@ -43,10 +43,10 @@
   width: 100%;
   font-size: 90%;
 }
-.name::selection {
-  color: rgb(30, 241, 33);
-  background-color: black;
-}
+/* .name::selection { */
+/* color: rgb(30, 241, 33); */
+/* background-color: black; */
+/* } */
 .field {
   display: flex;
   justify-content: space-evenly;
