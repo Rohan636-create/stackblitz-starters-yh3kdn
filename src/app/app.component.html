@@ -1,4 +1,6 @@
 <div class="container">
-  <app-heroes class="heroes">hero</app-heroes>
+  <app-heroes class="heroes" (heroSelected)="onHeroSelected($event)"
+    >hero</app-heroes
+  >
   <app-details class="details">details</app-details>
 </div>
